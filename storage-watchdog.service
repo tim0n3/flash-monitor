@@ -1,0 +1,11 @@
+[Unit]
+Description=Storage watchdog service
+
+[Service]
+Type=simple
+ExecStart=/root/flash-monitor/storage-watchdog
+StandardOutput=null
+StandardError=null
+
+[Install]
+WantedBy=multi-user.target
