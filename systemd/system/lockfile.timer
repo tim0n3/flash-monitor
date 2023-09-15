@@ -1,0 +1,9 @@
+[Unit]
+Description=Run monitor_lock_file.service every 1 minute
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=1min
+
+[Install]
+WantedBy=timers.target

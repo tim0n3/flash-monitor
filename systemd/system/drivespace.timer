@@ -1,0 +1,9 @@
+[Unit]
+Description=Run Capacity Report Service
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=300
+
+[Install]
+WantedBy=timers.target

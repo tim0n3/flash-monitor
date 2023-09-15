@@ -1,0 +1,9 @@
+[Unit]
+Description=Capacity Report Service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/share/flash-monitor/capacity.sh
+
+[Install]
+WantedBy=multi-user.target

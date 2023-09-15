@@ -1,0 +1,9 @@
+[Unit]
+Description=Monitor /root/free.lock and perform actions
+
+[Service]
+ExecStart=/usr/share/flash-monitor/monitor_lock_file.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
