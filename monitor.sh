@@ -26,5 +26,5 @@ while true; do
     
     prev_avail_space="$latest_avail_space"
     
-    sleep 300
+    sleep 30
 done
